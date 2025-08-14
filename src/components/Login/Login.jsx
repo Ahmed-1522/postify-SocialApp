@@ -77,7 +77,7 @@ export default function Register() {
             type="email"
             {...register("email")}
             id="email"
-            className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 rounded appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+            className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 rounded appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
             placeholder=" "
           />
           <label
