@@ -3,7 +3,7 @@ import style from "./PostDetails.module.css";
 import { useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
-import Comment from "./../comment/comment";
+import Comment from "./../comment/Comment";
 import dayjs from "dayjs";
 import LoadingPosts from "../LoadingPosts/LoadingPosts";
 

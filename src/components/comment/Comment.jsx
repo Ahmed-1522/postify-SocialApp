@@ -5,7 +5,7 @@ import dayjs from "dayjs";
 import UpdateComment from "../UpdateComment/UpdateComment";
 import DeleteComment from "../DeleteComment/DeleteComment";
 
-const comment = ({ comment, currentUserId, postOwnerId }) => {
+const Comment = ({ comment, currentUserId, postOwnerId }) => {
   let { commentCreator, createdAt, content } = comment;
   return (
     <div className="w-full rounded-md  border-b-slate-900 text-white  bg-[#585757] my-7">
@@ -14,7 +14,7 @@ const comment = ({ comment, currentUserId, postOwnerId }) => {
         <div className=" flex justify-end">
           <div className="flex gap-2 px-3">
             {currentUserId && commentCreator._id === currentUserId && (
-              <UpdateComment id={comment._id}/>
+              <UpdateComment id={comment._id} />
             )}
             {currentUserId && postOwnerId === currentUserId && (
               <DeleteComment id={comment._id} />
@@ -38,4 +38,4 @@ const comment = ({ comment, currentUserId, postOwnerId }) => {
   );
 };
 
-export default comment;
+export default Comment;

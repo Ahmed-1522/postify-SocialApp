@@ -8,7 +8,7 @@ import LoadingPosts from "../LoadingPosts/LoadingPosts";
 import dayjs from "dayjs";
 import UpdatePosts from "./../UpdatePosts/UpdatePosts";
 import toast from "react-hot-toast";
-import Comment from "../comment/comment";
+import Comment from "../comment/Comment";
 import UpdateComment from "./../UpdateComment/UpdateComment";
 
 export default function UserPosts({ id }) {

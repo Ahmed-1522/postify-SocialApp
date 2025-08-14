@@ -3,7 +3,7 @@ import style from "./Home.module.css";
 // import { postContext } from "../../context/Postcontext";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
-import Comment from "../comment/comment";
+import Comment from "../comment/Comment";
 import { Link } from "react-router-dom";
 import AddCommentModal from "../AddCommentModal/AddCommentModal";
 import LoadingPosts from "../LoadingPosts/LoadingPosts";
