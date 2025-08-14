@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Comment.module.css";
+import style from "./comment.module.css";
 import userPhoto from "../../assets/user icon.jpg";
 import dayjs from "dayjs";
 import UpdateComment from "../UpdateComment/UpdateComment";
