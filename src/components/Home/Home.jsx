@@ -78,7 +78,7 @@ export default function Home() {
                   <img className="w-[2.8125rem]" src={post.user.photo} alt="" />
                   {post.user.name}
                 </div>
-                <div className="text-slate-400">
+                <div className="text-stone-400">
                   {dayjs(data?.createdAt).format("DD MMM YYYY, h:mm A")}
                 </div>
               </div>

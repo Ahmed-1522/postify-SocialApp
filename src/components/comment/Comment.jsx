@@ -8,8 +8,8 @@ import DeleteComment from "../DeleteComment/DeleteComment";
 const Comment = ({ comment, currentUserId, postOwnerId }) => {
   let { commentCreator, createdAt, content } = comment;
   return (
-    <div className="w-full rounded-md  border-b-slate-900 text-white  bg-[#585757] my-7">
-      <div className="text-center  text-[#313030] pb-4">
+    <div className="w-full rounded-md  border-b-slate-900 text-white shadow-2xl  bg-[#363535] my-7">
+      <div className="text-center  text-stone-400 pb-4">
         comments
         <div className=" flex justify-end">
           <div className="flex gap-2 px-3">
@@ -28,7 +28,7 @@ const Comment = ({ comment, currentUserId, postOwnerId }) => {
           <p>{commentCreator.name}</p>
         </div>
         <div className="">
-          <p className="text-[#313030]">
+          <p className="text-stone-400">
             {dayjs(createdAt).format("DD MMM YYYY, h:mm A")}
           </p>
         </div>

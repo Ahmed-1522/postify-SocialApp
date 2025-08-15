@@ -56,7 +56,7 @@ export default function Layout() {
       </Helmet>
 
       <Navbar />
-      <div className="m-0 py-12 bg-[url('/bg.jpg')]">
+      <div className="py-12 px-3 bg-[url('/bg.jpg')]">
         <Outlet />
       </div>
       <Footer />
